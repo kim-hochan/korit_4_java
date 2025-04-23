@@ -29,7 +29,7 @@ public class Scanner02 {
         scanner.nextLine();
         System.out.println(age);
         System.out.print("주소를 입력하세요 >>> ");
-        String address = scanner.nextLine();
+        String address = scanner.nextLine();        //nextLine은 enter 기준으로 잡음
         int age10 = age + 10;
         System.out.println("안녕하세요, 제 이름은 " + name + "입니다." + address + "에 살고 있습니다.");
         System.out.println("10년 후 나이는 " + age10 + "살입니다.");
